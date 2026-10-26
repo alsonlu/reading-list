@@ -14,6 +14,7 @@ Playbooks and case studies on running software delivery with coding agents, incl
 - **[Why Ramp built its own in-house coding agent, Inspect](https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect)** (Gergely Orosz, The Pragmatic Engineer). Why a fintech built its own coding agent rather than adopt a frontier lab's.
 - **[Inside OpenAI's agentic software factory](https://newsletter.pragmaticengineer.com/p/openai-software-factory)** (Gergely Orosz, The Pragmatic Engineer). How Codex is used inside OpenAI and the engineering challenges at its scale.
 - **[Anthropic's Scion](https://www.anthropic.com/research/redesigning-source-control)** (Anthropic) How the team uses Scion
+- **[Uber's AI infra, from the inside](https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside)** (Gergely Orosz, The Pragmatic Engineer). Deep dive into Uber's internal AI developer tools and infrastructure for integrating AI agents into engineering workflows.
 
 ## Code review and automerge
 

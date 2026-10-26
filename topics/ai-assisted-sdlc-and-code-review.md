@@ -11,3 +11,4 @@ Playbooks and case studies on running software delivery with coding agents. All 
 - **[The state of the tech industry in 2026](https://newsletter.pragmaticengineer.com/p/the-state-of-the-tech-industry-in)** (Gergely Orosz, The Pragmatic Engineer). What has changed and what is still broken in tech, from a conference keynote.
 - **[Why Ramp built its own in-house coding agent, Inspect](https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect)** (Gergely Orosz, The Pragmatic Engineer). Why a fintech built its own coding agent rather than adopt a frontier lab's.
 - **[Inside OpenAI's agentic software factory](https://newsletter.pragmaticengineer.com/p/openai-software-factory)** (Gergely Orosz, The Pragmatic Engineer). How Codex is used inside OpenAI and the engineering challenges at its scale.
+- **[Anthropic's Scion](https://www.anthropic.com/research/redesigning-source-control)** (Anthropic) How the team uses Scion

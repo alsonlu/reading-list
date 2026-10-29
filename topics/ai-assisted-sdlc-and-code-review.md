@@ -15,6 +15,10 @@ Playbooks and case studies on running software delivery with coding agents, incl
 - **[Inside OpenAI's agentic software factory](https://newsletter.pragmaticengineer.com/p/openai-software-factory)** (Gergely Orosz, The Pragmatic Engineer). How Codex is used inside OpenAI and the engineering challenges at its scale.
 - **[Anthropic's Scion](https://www.anthropic.com/research/redesigning-source-control)** (Anthropic) How the team uses Scion
 - **[Uber's AI infra, from the inside](https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside)** (Gergely Orosz, The Pragmatic Engineer). Deep dive into Uber's internal AI developer tools and infrastructure for integrating AI agents into engineering workflows.
+- **[Building an AI-native engineering team](https://cdn.openai.com/business-guides-and-resources/building-an-ai-native-engineering-team.pdf)** (OpenAI, PDF). Guide to using coding agents across planning, design, build, test, review and operations, with a getting-started checklist for each phase.
+- **[How OpenAI uses Codex](https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf)** (OpenAI, PDF). Internal use cases such as code understanding, migrations, test coverage and incident response, plus best practices like AGENTS.md and plan-first prompting.
+- **[Cisco and OpenAI redefine enterprise engineering with Codex](https://openai.com/index/cisco/)** (OpenAI customer story, 2026-05). Cisco used Codex across large multi-repo codebases, with about 20% shorter build times and 1,500+ engineering hours saved per month.
+- **[An open-source spec for Codex orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony/)** (OpenAI, 2026-04). Turns an issue tracker such as Linear into a control plane where every open task gets an agent; reports a 500% rise in landed PRs on some teams.
 
 ## Code review and automerge
 

@@ -2,6 +2,8 @@
 
 A curated index of public articles, papers and guides, collected from my notes and saved links. It holds links with one-line summaries, not copies of the articles. Entries that could not be fetched are marked **unverified**.
 
+Entries marked `[ ]` are not read yet and `[x]` are read; tick the box on GitHub or ask to mark it read.
+
 ## Contents
 - [Agents and context engineering](topics/agents-and-context-engineering.md)
 - [AI-assisted SDLC and code review](topics/ai-assisted-sdlc-and-code-review.md)

@@ -1,31 +1,8 @@
-# AI-assisted SDLC and code review
+# AI code review and automerge
 
-Playbooks and case studies on running software delivery with coding agents, including AI code review systems. All supplied 2026-10-23.
+Approaches and research on AI-assisted code review systems.
 
-## SDLC and engineering
-
-- [x] **[Scaling agentic coding across your organization](https://resources.anthropic.com/hubfs/Scaling%20agentic%20coding%20across%20your%20organization.pdf)** (Anthropic, PDF). How to move an engineering organization from pilot to production with Claude Code.
-- [x] **[How Anthropic teams use Claude Code](https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf)** (Anthropic, PDF). Per-team usage stories. Title inferred from the PDF's cover text, so treat as unverified.
-- [x] **[Vibe coding is not the same as AI-assisted engineering](https://addyo.substack.com/p/vibe-coding-is-not-the-same-as-ai)** (Addy Osmani). Argues for disciplined AI-assisted engineering over vibe coding for production software.
-- [x] **[The AI-native SDLC playbook](https://academy.claude.com/courses/ai-native-sdlc-playbook)** (Claude Academy). Twelve plays for using Claude at each stage of the SDLC.
-- [x] **[What Happens When AI Technical Debt Compounds (And How Spec-Driven Dev Prevents It)](https://www.augmentcode.com/guides/ai-technical-debt-compounds-spec-driven-development)** (Augment Code). Makes the case for living specs to stop AI-generated debt from compounding.
-- [x] **[Agentic coding is straining CI. Here's how we scaled test impact analysis at Anthropic](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)** (Anthropic). CI job volume grew 25x in six months; describes the sustainable test-selection fix.
-- [x] **[The state of the tech industry in 2026](https://newsletter.pragmaticengineer.com/p/the-state-of-the-tech-industry-in)** (Gergely Orosz, The Pragmatic Engineer). What has changed and what is still broken in tech, from a conference keynote.
-- [x] **[Why Ramp built its own in-house coding agent, Inspect](https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect)** (Gergely Orosz, The Pragmatic Engineer). Why a fintech built its own coding agent rather than adopt a frontier lab's.
-- [x] **[Inside OpenAI's agentic software factory](https://newsletter.pragmaticengineer.com/p/openai-software-factory)** (Gergely Orosz, The Pragmatic Engineer). How Codex is used inside OpenAI and the engineering challenges at its scale.
-- [x] **[Anthropic's Scion](https://www.anthropic.com/research/redesigning-source-control)** (Anthropic) How the team uses Scion
-- [x] **[Uber's AI infra, from the inside](https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside)** (Gergely Orosz, The Pragmatic Engineer). Deep dive into Uber's internal AI developer tools and infrastructure for integrating AI agents into engineering workflows.
-- [x] **[Building an AI-native engineering team](https://cdn.openai.com/business-guides-and-resources/building-an-ai-native-engineering-team.pdf)** (OpenAI, PDF). Guide to using coding agents across planning, design, build, test, review and operations, with a getting-started checklist for each phase.
-- [x] **[How OpenAI uses Codex](https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf)** (OpenAI, PDF). Internal use cases such as code understanding, migrations, test coverage and incident response, plus best practices like AGENTS.md and plan-first prompting.
-- [x] **[Cisco and OpenAI redefine enterprise engineering with Codex](https://openai.com/index/cisco/)** (OpenAI customer story, 2026-05). Cisco used Codex across large multi-repo codebases, with about 20% shorter build times and 1,500+ engineering hours saved per month.
-- [x] **[An open-source spec for Codex orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony/)** (OpenAI, 2026-04). Turns an issue tracker such as Linear into a control plane where every open task gets an agent; reports a 500% rise in landed PRs on some teams.
-- [x] **[AI @ Proton, Engineering Manifesto](https://drive.proton.me/urls/8PFETX3VSG#50pEkTlumiok)** (Proton, PDF on Proton Drive). Argues engineers' job is now to help LLMs write code autonomously, and that Proton must move past speeding up existing workflows to removing bottlenecks across the whole SDLC, including most human code review.
-- [ ] **[The Complete Guide to pstack Pt. 1](https://x.com/poteto/article/2094457600259842065?lang=en)** (poteto, X article). How poteto uses pstack, a personal set of agent skills for rigorous engineering work, to ship about 2,000 PRs a month to production at high quality.
-- [ ] **[The Complete Guide to pstack Pt. 2](https://x.com/poteto/status/2097732320606507506)** (poteto, X post linking the article). Part 2 of the series: the art of supervising an agent smarter than you.
-
-## Code review and automerge
-
-### Company and vendor write-ups
+## Company and vendor write-ups
 
 - [x] **[uReview](https://www.uber.com/us/en/blog/ureview/)** (Uber, 2025-08), found 2026-10-12 (from: bureau-code-review). Four-stage prompt chain with a grader on a different model; about 75% of rated comments useful, which showed how far thresholds and dedupe get you.
 - [x] **[Building uReview (AI Engineer talk)](https://aiengineer.podhood.com/feb79ed8-7bf0-4a8d-8c2c-f00e78e435ed)** (Uber, 2026-08), found 2026-10-12 (from: bureau-code-review). 2026 update: routes each PR to a review depth and cut cost by 60% against the naive build.
@@ -51,7 +28,7 @@ Playbooks and case studies on running software delivery with coding agents, incl
 - [x] **[Why code review needs its own AI](https://www.qodo.ai/blog/why-code-review-needs-its-own-ai-with-state-of-the-art-precision-recall/)** (Qodo, 2026), found 2026-10-12 (from: bureau-code-review). Precision and recall argument for a dedicated review model.
 - [x] **[How we built Ellipsis](https://www.nsbradford.com/blog/how-we-built-ellipsis)** (Nick Bradford, 2025-01), found 2026-10-12 (from: bureau-code-review). Parallel generators followed by confidence, dedupe and evidence-checking filters.
 
-### Papers
+## Papers
 
 - [x] **[Automated Code Review In Practice](https://arxiv.org/abs/2412.18531)** (arXiv 2412.18531, ICSE SEIP 2025), found 2026-10-12 (from: bureau-code-review). Industry study of LLM review with PR-Agent in production.
 - [x] **[Google AutoCommenter](https://arxiv.org/abs/2405.13565)** (arXiv 2405.13565, 2024-05), found 2026-10-12 (from: bureau-code-review). Best-practice comments with per-practice thresholds and no comments on unmodified lines.

@@ -6,7 +6,8 @@ Entries marked `[ ]` are not read yet and `[x]` are read; tick the box on GitHub
 
 ## Contents
 - [Agents and context engineering](topics/agents-and-context-engineering.md)
-- [AI-assisted SDLC and code review](topics/ai-assisted-sdlc-and-code-review.md)
+- [ADLC](topics/adlc.md)
+- [AI code review and automerge](topics/ai-code-review.md)
 - [Measuring AI impact](topics/measuring-ai-impact.md)
 - [Knowledge management](topics/knowledge-management.md)
 - [Misc](topics/misc.md)

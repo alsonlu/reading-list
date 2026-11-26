@@ -1,4 +1,4 @@
-# AI-assisted SDLC
+# ADLC
 
 Playbooks and case studies on running software delivery with coding agents.
 

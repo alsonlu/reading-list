@@ -20,6 +20,8 @@ Playbooks and case studies on running software delivery with coding agents, incl
 - [x] **[Cisco and OpenAI redefine enterprise engineering with Codex](https://openai.com/index/cisco/)** (OpenAI customer story, 2026-05). Cisco used Codex across large multi-repo codebases, with about 20% shorter build times and 1,500+ engineering hours saved per month.
 - [x] **[An open-source spec for Codex orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony/)** (OpenAI, 2026-04). Turns an issue tracker such as Linear into a control plane where every open task gets an agent; reports a 500% rise in landed PRs on some teams.
 - [x] **[AI @ Proton, Engineering Manifesto](https://drive.proton.me/urls/8PFETX3VSG#50pEkTlumiok)** (Proton, PDF on Proton Drive). Argues engineers' job is now to help LLMs write code autonomously, and that Proton must move past speeding up existing workflows to removing bottlenecks across the whole SDLC, including most human code review.
+- [ ] **[The Complete Guide to pstack Pt. 1](https://x.com/poteto/article/2094457600259842065?lang=en)** (poteto, X article). How poteto uses pstack, a personal set of agent skills for rigorous engineering work, to ship about 2,000 PRs a month to production at high quality.
+- [ ] **[The Complete Guide to pstack Pt. 2](https://x.com/poteto/status/2097732320606507506)** (poteto, X post linking the article). Part 2 of the series: the art of supervising an agent smarter than you.
 
 ## Code review and automerge
 
